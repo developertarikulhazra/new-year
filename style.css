@@ -74,8 +74,8 @@
  .plan-list{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: center;
+    gap: 80px;
  }
  .plan-title{
     text-align: center;
@@ -84,6 +84,7 @@
  }
  .plan-content{
     text-align: center;
+    margin-left: 40px;
  }
  .experience-description{
     font-size: 18px;
@@ -183,3 +184,31 @@
     font-size: 18px;
     margin-bottom: 20px;
  }
+
+ /* extra xection/ hobby section  */
+
+ .hobby-main{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+   text-align: center;
+   margin-bottom: 80px;
+   
+ }
+ .hobby-container{
+    margin-left: 30px;
+ }
+ .hobby-main img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+
+ }
+.hobby-title{
+    text-align: center;
+    margin: 80px;
+    font-size: 60px;
+    font-weight: 700px;
+
+}
